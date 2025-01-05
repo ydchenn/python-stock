@@ -1,7 +1,4 @@
 @echo off
-echo Current directory: %cd%
-pause
-
 :: 移動到你的專案目錄
 cd C:\Users\Home\Desktop\東東\python_jupyter notebook
 
