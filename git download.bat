@@ -1,13 +1,16 @@
 @echo off
-:: η§»ε‹•ε°δ½ η„ε°ζ΅η›®ι„
-cd C:\Users\Home\Desktop\ζ±ζ±\python_jupyter notebook
+echo Current directory: %cd%
+pause
 
-:: ι΅―η¤Ίη•¶ε‰η›®ι„
+:: ²Ύ°Κ¨μ§AªΊ±M®Χ¥ΨΏύ
+cd C:\Users\Home\Desktop\ªFªF\python_jupyter notebook
+
+:: Εγ¥ά·ν«e¥ΨΏύ
 echo Pulling code to %cd%
 
-:: ζ‹‰ε–ζ€ζ–°θ®ζ›΄
+:: ©Τ¨ϊ³Μ·sΕά§σ
 git pull origin main
 
-:: ε®ζζη¤Ί
+:: §Ή¦¨΄£¥ά
 echo Code downloaded successfully!
 pause

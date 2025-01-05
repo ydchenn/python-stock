@@ -1,19 +1,19 @@
 @echo off
-:: ç§»å‹•åˆ°ä½ çš„å°ˆæ¡ˆç›®éŒ„
-cd C:\Users\Home\Desktop\æ±æ±\python_jupyter notebook
+:: ²¾°Ê¨ì§Aªº±M®×¥Ø¿ı
+cd C:\Users\Home\Desktop\ªFªF\python_jupyter notebook
 
-:: é¡¯ç¤ºç•¶å‰ç›®éŒ„
+:: Åã¥Ü·í«e¥Ø¿ı
 echo Working in %cd%
 
-:: æ–°å¢æ‰€æœ‰è®Šæ›´
+:: ·s¼W©Ò¦³ÅÜ§ó
 git add .
 
-:: æäº¤è®Šæ›´ï¼Œå¸¶æœ‰é»˜èªè¨Šæ¯
+:: ´£¥æÅÜ§ó¡A±a¦³Àq»{°T®§
 git commit -m "Auto commit from batch script"
 
-:: æ¨é€åˆ°é ç«¯å„²å­˜åº«
+:: ±À°e¨ì»·ºİÀx¦s®w
 git push origin main
 
-:: å®Œæˆæç¤º
+:: §¹¦¨´£¥Ü
 echo Code uploaded to GitHub successfully!
 pause
