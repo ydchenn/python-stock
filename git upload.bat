@@ -1,6 +1,6 @@
 @echo off
 :: 移動到你的專案目錄
-cd C:\Users\Home\Desktop\東東\python_jupyter notebook
+cd C:\Users\asw5926\Documents\me\stock
 
 
 :: 顯示當前目錄
